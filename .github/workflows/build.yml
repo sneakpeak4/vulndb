@@ -14,7 +14,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Project
-        run: docker build -t my-app:latest .
-             docker push temp/my-app:latest
+        run: 
           # Add commands to build your project here
           echo "Building project..."
+          docker build -t my-app:latest .
+          docker push temp/my-app:latest
