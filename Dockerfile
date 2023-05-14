@@ -1,5 +1,5 @@
 # Use the official PostgreSQL image
-FROM postgres:latest
+FROM postgres:12.11-alpine3.16
 
 # Environment variables
 # ENV POSTGRES_USER sahil
