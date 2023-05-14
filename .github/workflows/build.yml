@@ -1,0 +1,20 @@
+name: Build Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Build Project
+        run: docker build -t my-app:latest .
+             docker push temp/my-app:latest
+          # Add commands to build your project here
+          echo "Building project..."
