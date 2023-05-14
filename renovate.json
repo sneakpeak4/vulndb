@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "enabledManagers": ["docker-compose", "dockerfile", "pipenv", "regex"],
+    "packageRules": [
+      {
+        "matchDatasources": ["docker"],
+        "labels": ["docker-update"]
+      }
+    ],
+    "reviewersFromCodeOwners": true
+  }
