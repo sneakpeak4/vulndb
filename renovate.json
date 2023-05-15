@@ -4,8 +4,7 @@
     "packageRules": [
       {
         "matchDatasources": ["docker"],
-        "labels": ["docker-update"]
+        "labels": ["docker--security-update"]
       }
-    ],
-    "reviewersFromCodeOwners": true
+    ]
   }
