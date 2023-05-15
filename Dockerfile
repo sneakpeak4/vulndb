@@ -1,5 +1,5 @@
 # Use the official PostgreSQL image
-FROM postgres:13.5-bullseye
+FROM postgres:12.5-bullseye
 
 # Environment variables
 # ENV POSTGRES_USER sahil
