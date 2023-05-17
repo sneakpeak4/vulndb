@@ -6,6 +6,5 @@
         "matchDatasources": ["docker"],
         "labels": ["docker--security-update"]
       }
-    ],
-    "assignees": ["@codeowners"]
+    ]
   }
