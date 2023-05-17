@@ -7,5 +7,5 @@
         "labels": ["docker--security-update"]
       }
     ],
-    "assignee": ["@codeowners"]
+    "assignees": ["@codeowners"]
   }
